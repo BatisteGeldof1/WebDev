@@ -1,6 +1,37 @@
-body {
+.Opdracht_1 {
     font-family: 'Poppins', sans-serif;
     background-color: black;
     color: white;
 
+}
+.Appels{
+    color: red;
+    font-size: 1.2em;
+
+}
+.Peren{
+
+    color: green;
+}
+.Druiven{
+
+    color: blue;
+}
+p {
+
+    font-family: 'Times New Roman', Times, serif;
+}
+.Hoofd1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+}
+.Hoofd2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+.Hoofd3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
 }
