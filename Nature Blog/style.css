@@ -1,0 +1,49 @@
+body {
+margin: auto;
+width: 95%;
+
+}
+section > header > h1 {
+
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: cover; /* Set background-size to cover */
+    width: 100%; /* Set width to 100% */
+    font-size: 3em;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    
+}
+nav{
+    color: black;
+    background-color: #444444;
+    margin-bottom: 0;
+}
+nav > a{
+
+    color: #52d968;
+   
+
+}
+section > article {
+
+    background-color: #eeeeee;
+    margin: 1px;
+   
+}
+section{
+    margin-top: 10px;
+}
+  h1 {
+    text-decoration: underline;
+    font-size: 2em;
+
+}
+section > section > article {
+    margin: 3px;
+  
+}

@@ -3,108 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Personal Homepage</title>
-    <style>
-        /* Reset some default styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
-        
-        header {
-            text-align: center;
-            background-color: #0077b6;
-            color: #fff;
-            padding: 2px;
-        }
-        
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-        
-        h2 {
-            font-size: 24px;
-        }
-        
-        h3 {
-            font-size: 18px;
-            margin-top: 20px;
-        }
-        
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        
-        li {
-            margin-bottom: 10px;
-        }
-        
-        img {
-            max-width: 30%;
-            height: auto;
-            display: block; /* Remove any extra space below images */
-            
-        }
-        
-        a {
-            text-decoration: none;
-            color: #0077b6;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
-    <h1>Personal Homepage</h1>
-    <h2>Batiste Geldof</h2>
-    <h3>Persoonlijke informatie</h3>
-    <ul>
-        <li>Voornaam: Bap</li>
-        <li>Achternaam: Jozef</li>
-        <li>Adres: Sesamstraat, bonna</li>
-        <li>Email: <a href="mailto:R0992239@student.vives.be">R0992239@student.vives.be</a></li>
-        <li>Telefoonnummer: +045346667</li>
-        <li>ZelfPortret:</li>
-        <li><img src="Fotos/Foto.png" alt="Zelfportret"></li>
-    </ul>
+    <header>
+        
+        <h1>Personal Homepage</h1>
+        <h2>Batiste Geldof</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">Over Mij</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h3>Hobbies</h3>
-    <ul>
-        <li>
-            <h4>Voetbal</h4>
-            <p>Ik voetbal bij VLKP Langemark, daar ben ik center back. Ik speel al me hele leven voetbal.</p>
-            <p>Logo:</p>
-            <img src="Fotos/VKLP-logo.png" alt="VLKP Logo">
-            <p>Website: <a href="https://www.vklp.be">Visit VKLP Website</a></p>
-        </li>
-   
-        <li>
-            <h4>Snowboarden</h4>
-            <p>Ik ga bijna ieder jaar gaan snowboarden, ik hou van deze sport. Ik doe het ondertussen al 5 jaar.</p>
-            <p>Logo:</p>
-            <img src="Fotos/snowboard4.jpg.webp" alt="Snowboard Logo">
-            <p>Website: <a href="https://nl.wikipedia.org/wiki/Snowboarden">Snowboard Website</a></p>
-        </li>
+    <section id="about">
+        <h3>Persoonlijke informatie</h3>
+        <table>
+            <tr>
+                <td><strong>Voornaam:</strong></td>
+                <td>Bap</td>
+            </tr>
+            <tr>
+                <td><strong>Achternaam:</strong></td>
+                <td>Jozef</td>
+            </tr>
+            <tr>
+                <td><strong>Adres:</strong></td>
+                <td>Sesamstraat, bonna</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td><a href="mailto:R0992239@student.vives.be">R0992239@student.vives.be</a></td>
+            </tr>
+            <tr>
+                <td><strong>Telefoonnummer:</strong></td>
+                <td>+045346667</td>
+            </tr>
+            <tr>
+                <td><strong>ZelfPortret:</strong></td>
+                <td><img src="Fotos/Foto.png" alt="Zelfportret"></td>
+            </tr>
+        </table>
+    </section>
 
-        <li>
-            <h4>Golf</h4>
-            <p>In mijn vrije tijd ga ik graag gaan golfen.</p>
-            <p>Logo:</p>
-            <img src="Fotos/images.jpeg" alt="Golf Logo">
-            <p>Website: <a href="https://www.ieperopengolf.be">Golf Website</a></p>
-        </li>
-    </ul>
+    <section id="hobbies">
+        <h3>Hobbies</h3>
+        <ul>
+            <li>
+                <h4>Voetbal</h4>
+                <p>Ik voetbal bij VLKP Langemark, daar ben ik center back. Ik speel al me hele leven voetbal.</p>
+                <img src="Fotos/VKLP-logo.png" alt="VLKP Logo">
+                <p>Website: <a href="https://www.vklp.be">Visit VKLP Website</a></p>
+            </li>
+       
+            <li>
+                <h4>Snowboarden</h4>
+                <p>Ik ga bijna ieder jaar gaan snowboarden, ik hou van deze sport. Ik doe het ondertussen al 5 jaar.</p>
+                <img src="Fotos/snowboard4.jpg.webp" alt="Snowboard Logo">
+                <p>Website: <a href="https://nl.wikipedia.org/wiki/Snowboarden">Snowboard Website</a></p>
+            </li>
+
+            <li>
+                <h4>Golf</h4>
+                <p>In mijn vrije tijd ga ik graag gaan golfen.</p>
+                <img src="Fotos/images.jpeg" alt="Golf Logo">
+                <p>Website: <a href="https://www.ieperopengolf.be">Golf Website</a></p>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
