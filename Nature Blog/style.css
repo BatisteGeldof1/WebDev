@@ -21,7 +21,7 @@ section > header > h1 {
 nav{
     color: black;
     background-color: #444444;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 nav > a{
 
@@ -35,9 +35,7 @@ section > article {
     margin: 1px;
    
 }
-section{
-    margin-top: 10px;
-}
+
   h1 {
     text-decoration: underline;
     font-size: 2em;
