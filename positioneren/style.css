@@ -1,0 +1,30 @@
+body {
+    font-size: 1.25em;
+
+    
+}
+
+main {
+    margin: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+    border: 1px;
+    border-style: solid;
+
+}
+
+article:nth-child(odd) img {
+    float: left;
+}
+
+article:nth-child(even) img {
+   float: right;
+}
+
+img {
+    margin-right: 10px;
+}
