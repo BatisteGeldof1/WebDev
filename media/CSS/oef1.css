@@ -1,0 +1,74 @@
+
+
+
+body {
+	font: 1.2em/1.2 Helvetica, aria, sans-serif;
+	margin: 0 3%;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: .9em 0 0 0;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+
+img {
+	max-width: 70%;
+}
+
+figure {
+	background: black;
+	border-radius: 5px;
+	color: red;
+	margin: 0 0 25px 0;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+
+@media only screen and (max-width: 767px) {
+	/* Styles for phones */
+	figure {
+	   background: red; /* Change background color for phones */
+	}
+ }
+ 
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+	figure {
+		width: 48%; 
+		margin: 0 1% 25px 1%; 
+		float: left;
+	  }
+	
+	  figure:nth-child(2n+1) {
+		clear: both; /* Start a new row after every 2 images */
+	  }
+	figure {
+	   background: green; /* Change background color for tablets */
+	}
+ }
+ 
+ @media only screen and (min-width: 992px) {
+	/* Styles for desktops */
+	figure {
+	   background: blue; /* Change background color for desktops */
+	}
+	figure {
+		width: 30%; 
+		margin: 0 1% 25px 1%; 
+		float: left;
+	  }
+	
+	  figure:nth-child(3n+1) {
+		clear: both; /* Start a new row after every 3 images */
+	  }
+ }
+ 
